@@ -1,0 +1,31 @@
+.about-img{
+    margin: 380px 160px 0 75px;
+}
+.about-container{
+    max-width: 360px;
+}
+.about-text{
+    margin: 415px 40px 0 0;
+    .h1{
+        font-size: 48px;
+        color: $text-color;
+        margin-bottom: 75px;
+    }
+    .p{
+        @extend .default-text;
+        margin-bottom: 90px;
+    }
+    .a{
+        color: $text-color;
+        font-size: $small-font-size;
+        border-bottom: 2px solid $default-blue;
+        padding: 10px 30px 10px 0px;
+        &:hover{
+            color: $default-blue;
+        }
+    }
+}
+.about-p{
+    @extend .default-text;
+    margin-top: 586px;
+}
