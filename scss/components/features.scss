@@ -1,0 +1,21 @@
+.feature-img{
+    margin: 235px 140px 0 135px;
+}
+.features-text{
+    margin-top: 300px;
+    .h1{
+        font-size: 48px;
+        color: $text-color;
+        margin-bottom: 70px;
+    }
+}
+.features-p{
+    .p{
+        line-height: 20px;
+        margin: 35px 0 0 25px;
+        @extend .default-text;
+        &:first-child{
+            margin-top: 0px;
+        }
+    }
+}
