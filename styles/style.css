@@ -51,11 +51,24 @@ a {
 input {
   border: 0px; }
 
-.d-flex, .space-around, .space-between {
+.d-flex, .space-between, .space-around {
   display: flex; }
 
+.space-between {
+  justify-content: space-between; }
+
+.space-around {
+  justify-content: space-around; }
+
+.default-text, .about-text .p, .about-p, .service-container .p, .features-p .p {
+  color: #666666;
+  font-size: 18px; }
+
+.allservices-cont {
+  max-width: 560px; }
+
 .bg {
-  width: 1900px;
+  width: 1980px;
   height: 9900px;
   background-image: url(../img/bg.png);
   background-repeat: no-repeat; }
@@ -63,15 +76,13 @@ input {
 .logo {
   margin: 50px 600px 0 0; }
 
-.space-around {
-  justify-content: space-around; }
-
 .nav {
   margin-top: 60px; }
   .nav .a {
-    margin-left: 45px;
     font-size: 18px;
     color: #272727;
+    padding: 10px;
+    margin-left: 20px;
     text-align: center; }
     .nav .a:hover {
       opacity: 0.8; }
@@ -80,13 +91,10 @@ input {
   max-width: 1400px;
   margin: 250px auto 0 auto; }
 
-.space-between {
-  justify-content: space-between; }
-
 .header-text-container {
   max-width: 570px; }
   .header-text-container .h3 {
-    font-size: 24;
+    font-size: 24px;
     color: #6963fb; }
   .header-text-container .h1 {
     margin: 30px 0 60px 0;
@@ -94,7 +102,7 @@ input {
     font-size: 60px; }
   .header-text-container .p {
     color: #989898;
-    font-size: 24;
+    font-size: 24px;
     margin-bottom: 130px; }
   .header-text-container .button {
     color: #fff;
@@ -105,3 +113,68 @@ input {
     border-radius: 50px; }
     .header-text-container .button:hover {
       opacity: 0.8; }
+
+.about-img {
+  margin: 380px 160px 0 75px; }
+
+.about-container {
+  max-width: 360px; }
+
+.about-text {
+  margin: 415px 40px 0 0; }
+  .about-text .h1 {
+    font-size: 48px;
+    color: #272727;
+    margin-bottom: 75px; }
+  .about-text .p {
+    margin-bottom: 90px; }
+  .about-text .a {
+    color: #272727;
+    font-size: 18px;
+    border-bottom: 2px solid #6963fb;
+    padding: 10px 30px 10px 0px; }
+    .about-text .a:hover {
+      color: #6963fb; }
+
+.about-p {
+  margin-top: 586px; }
+
+.service-container {
+  max-width: 260px; }
+  .service-container .a {
+    font-size: 21px;
+    color: #272727; }
+    .service-container .a:hover {
+      opacity: 0.7; }
+  .service-container .p {
+    margin-top: 30px; }
+
+.icon {
+  margin: 50px 0 30px 0; }
+  .icon:hover {
+    opacity: 0.7; }
+
+.service-img {
+  margin-top: 140px; }
+
+.services {
+  margin: 230px 195px 0 375px; }
+  .services .h1 {
+    font-size: 48px;
+    color: #272727; }
+
+.feature-img {
+  margin: 235px 140px 0 135px; }
+
+.features-text {
+  margin-top: 300px; }
+  .features-text .h1 {
+    font-size: 48px;
+    color: #272727;
+    margin-bottom: 70px; }
+
+.features-p .p {
+  line-height: 20px;
+  margin: 35px 0 0 25px; }
+  .features-p .p:first-child {
+    margin-top: 0px; }
