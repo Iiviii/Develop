@@ -1,6 +1,10 @@
 .d-flex{
     display: flex;
 }
+.wrap{
+    @extend .d-flex;
+    flex-wrap: wrap;
+}
 .space-between{
     @extend .d-flex;
     justify-content: space-between;
@@ -16,4 +20,7 @@
 }
 .allservices-cont{
     max-width: 560px;
+}
+.align-center{
+    text-align: center;
 }
