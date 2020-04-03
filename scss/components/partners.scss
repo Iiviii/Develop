@@ -1,0 +1,29 @@
+.partners-container{
+    max-width: 1160px;
+    margin: 0 auto;
+    padding-top: 140px;
+}
+.partners-title-container{
+    max-width: 450px;
+    .h1{
+        font-size: 48px;
+        color: $text-color;
+    }
+    .p{
+        @extend .default-text;
+        padding-top: 50px;
+        line-height: 30px;
+    }
+}
+.partners-photos-container{
+    max-width: 535px;
+    .a{
+        padding: 50px 50px 0px 0px;
+        &:nth-child(3n){
+            padding-right: 0px;
+        }
+        &:nth-child(-n+3){
+            padding-top: 0px;
+        }
+    }
+}
