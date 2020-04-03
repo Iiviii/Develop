@@ -1,0 +1,26 @@
+.d-flex{
+    display: flex;
+}
+.wrap{
+    @extend .d-flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    @extend .d-flex;
+    justify-content: space-between;
+}
+.space-around{
+    @extend .d-flex;
+    justify-content: space-around;
+}
+// small grey text
+.default-text{
+    color: $dark-grey;
+    font-size: $small-font-size;
+}
+.allservices-cont{
+    max-width: 560px;
+}
+.align-center{
+    text-align: center;
+}
