@@ -1,5 +1,10 @@
+.allservice-container{
+    max-width: 560px;
+    height: 650px;
+}
 .service-container{
     max-width: 260px; 
+    height: 200px;
     .a{
         font-size: 21px;
         color: $text-color;
@@ -18,11 +23,8 @@
         opacity: 0.7;
     }
 }
-.service-img{
-    margin-top: 140px;
-}
 .services{
-    margin: 230px 195px 0 375px;
+    margin: 80px 195px 0 375px;
     .h1{
         font-size: 48px;
         color: $text-color;

@@ -1,11 +1,12 @@
 .about-img{
-    margin: 380px 160px 0 75px;
+    margin: 140px 160px 0 75px;
 }
 .about-container{
     max-width: 360px;
+    height: 600px;
 }
 .about-text{
-    margin: 415px 40px 0 0;
+    margin: 175px 40px 0 0;
     .h1{
         font-size: 48px;
         color: $text-color;
@@ -27,5 +28,5 @@
 }
 .about-p{
     @extend .default-text;
-    margin-top: 586px;
+    margin-top: 346px;
 }
