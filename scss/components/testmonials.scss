@@ -1,0 +1,72 @@
+.testmonials-container{
+    height: 1210px;
+}
+.testmonials-title-container{
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 145px 0 0 0;
+    .h1{
+        @extend .align-center;
+        font-size: 36px;
+        color: $text-color;
+    }
+    .p{
+        line-height: 30px;
+        padding: 50px 0 80px 0;
+        @extend .align-center;
+        font-size: 21px;
+        color: $dark-grey;
+    }
+}
+.testmonials-body-container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.slider{
+    position: relative;
+    max-width: 670px;
+    height: 415px;
+    .h3{
+        font-size: 48px;
+        color: $text-color;
+    }
+    .p{
+        padding: 50px 0 100px 0;
+        line-height: 26px;
+        font-size: $small-font-size;
+        color: $grey;
+    }
+    .author{
+        .h3{
+            padding-top: 10px;
+            font-size: 21px;
+            color: $text-color;
+        }
+        .p{
+            font-size: 16px;
+            color: $grey;
+            padding: 0;
+        }
+        img{
+            padding-right:30px;
+            height: 60px;
+        }
+        
+    }
+}
+
+.buttons{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    .button{
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        padding: 7px 10px;
+        background-color: $white-color;
+        border: 1px solid $white-color;
+        border-radius: 100%;
+        &:hover{
+            box-shadow:  0 17px 50px  rgba(0,0,0,0.19);
+        }
+    }
+}
