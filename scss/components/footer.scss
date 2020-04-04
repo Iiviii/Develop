@@ -1,52 +1,35 @@
-.footer{
-    height: 870px;
+.footer-container{
+    @extend .space-between;
+    padding-top: 90px;
     max-width: 1180px;
     margin: 0 auto;
 }
-.contact-container{
-    @extend .space-evenly;
-    padding: 360px 0 130px 0;
-    .h4{
-        text-transform: capitalize;
-        font-size: 21px;
-        color: $text-color;
-        padding-bottom: 20px;
-    }
-    .a{
-        text-transform: capitalize;
-        @extend .default-text;
+.storm{
+    .p{
         line-height: 30px;
-        &:hover{
-            color: $default-blue;
-        }
+        @extend .default-text;
     }
-}
-.contact{
-    max-width: 240px;
-    .img{
-        margin-top: 7px;
-        height: 14px;
-        padding: 0 30px 5px 0;
-    }
-}
-.support-container{
-    max-width: 100px;
-}
-.subscribe{
-    max-width: 370px;
     .a{
-        line-height: 26px;
-        &:hover{
-            color: $dark-grey;
-        }
+        line-height: 30px;
+        font-size: 18px;
+        color: $text-color;
     }
 }
-.form{
-    padding-top: 45px;
+.social-icons{
+    max-width: 200px;
+    .li{
+        padding: 0 10px;
+        display: inline-block;
+        vertical-align: middle;
+        &:last-child{
+            padding-right: 0px;
+        }
+        &:hover{
+            opacity: 0.7;
+        }
+    }
+    .img{
+        height: 30px;
+    }
 }
-input[type=text], input[type=submit] {
-    width: 100%;
-    font-size: 18px;
-    padding: 22px;
-    background-color: #f1f4f9;
-  }
+  

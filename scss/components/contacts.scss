@@ -1,0 +1,52 @@
+.contacts{
+    max-width: 1180px;
+    margin: 0 auto;
+    height: 565px;
+}
+.contact-container{
+    @extend .space-between;
+    padding-top: 360px;
+    .h4{
+        text-transform: capitalize;
+        font-size: 21px;
+        color: $text-color;
+        padding-bottom: 20px;
+    }
+    .a{
+        text-transform: capitalize;
+        @extend .default-text;
+        line-height: 30px;
+        &:hover{
+            color: $default-blue;
+        }
+    }
+}
+.contact{
+    max-width: 240px;
+    .img{
+        margin-top: 7px;
+        height: 14px;
+        padding: 0 30px 5px 0;
+    }
+}
+.support-container{
+    max-width: 100px;
+}
+.subscribe{
+    max-width: 370px;
+    .a{
+        line-height: 26px;
+        &:hover{
+            color: $dark-grey;
+        }
+    }
+}
+.form{
+    padding-top: 45px;
+}
+input[type=text], input[type=submit] {
+    width: 90%;
+    font-size: 18px;
+    padding: 22px;
+    background-color: #f1f4f9;
+}
