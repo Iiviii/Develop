@@ -13,10 +13,15 @@
     @extend .d-flex;
     justify-content: space-around;
 }
+.space-evenly{
+    @extend .d-flex;
+    justify-content: space-evenly;
+}
 // small grey text
 .default-text{
     color: $dark-grey;
     font-size: $small-font-size;
+    font-family: $poppins;
 }
 .allservices-cont{
     max-width: 560px;

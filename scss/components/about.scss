@@ -11,10 +11,12 @@
         font-size: 48px;
         color: $text-color;
         margin-bottom: 75px;
+        font-family: $poppins;
     }
     .p{
         @extend .default-text;
         margin-bottom: 90px;
+        font-family: $poppins;
     }
     .a{
         color: $text-color;
@@ -24,9 +26,11 @@
         &:hover{
             color: $default-blue;
         }
+        font-family: $poppins;
     }
 }
 .about-p{
     @extend .default-text;
     margin-top: 346px;
+    font-family: $poppins;
 }

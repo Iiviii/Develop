@@ -1,5 +1,5 @@
 .bg{
-    width: 1980px;
+    width: 1900px;
     height: 9900px;
     background-image: url(../img/bg.png);
     background-repeat: no-repeat;
@@ -10,6 +10,7 @@
 .nav{
     margin-top: 60px;
     .a{
+        font-family: $poppins;
         font-size: $small-font-size;
         color: $text-color;
         padding: 10px;
@@ -28,20 +29,24 @@
 .header-text-container{
     max-width: 570px;
     .h3{
+        font-family: $poppins;
         font-size: $default-font-size;
         color: $default-blue;
     }
     .h1{
+        font-family: $poppins;
         margin: 30px 0 60px 0;
         color: $text-color;
         font-size: 60px;
     }
     .p{
+        font-family: $poppins;
         color: $grey;
         font-size: $default-font-size;
         margin-bottom: 130px;
     }
     .button{
+        font-family: $poppins;
         color: $white-color;
         background-color: $default-blue;
         width: 200px;

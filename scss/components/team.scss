@@ -12,15 +12,18 @@
 .team-text-container{
     max-width: 460px;
     .h1{
+        font-family: $poppins;
         font-size: 48px;
         color: $text-color;
     }
     .p{
+        font-family: $poppins;
         margin-top: 55px;
         @extend .default-text;
     }
 }
 .position-h3{
+    font-family: $poppins;
     font-size: 21px;
     color: $text-color;
     display: block;
@@ -28,6 +31,7 @@
     transform-origin: 0 0;
 }
 .position-p{
+    font-family: $poppins;
     font-size: 16px;
     color: $grey;
     display: block;
@@ -37,12 +41,14 @@
 .team-section{
     position: relative;
     .h3{
+        font-family: $poppins;
         @extend .position-h3;
         transform: rotate(270deg);
         bottom: 10px;
         left: -32px;
     }
     .p{
+        font-family: $poppins;
         @extend .position-p;
         transform: rotate(270deg);
         bottom: 15px;
@@ -52,27 +58,31 @@
 .team-section2{
     position: relative;
     .h3{
+        font-family: $poppins;
         @extend .position-h3;
         transform: rotate(90deg);
         top: 16px;
-        right: -145px;
+        right: -165px;
     }
     .p{
+        font-family: $poppins;
         @extend .position-p;
         transform: rotate(90deg);
         top: 17px;
-        right: -115px; 
+        right: -130px; 
     }
 }
 .team-section3{
     position: relative;
     .h3{
+        font-family: $poppins;
         @extend .position-h3;
         transform: rotate(270deg);
         bottom: 10px;
         left: 113px;
     }
     .p{
+        font-family: $poppins;
         @extend .position-p;
         transform: rotate(270deg);
         bottom: 15px;
@@ -82,15 +92,17 @@
 .team-section4{
     position: relative;
     .h3{
+        font-family: $poppins;
         @extend .position-h3;
         transform: rotate(90deg);
         top: 16px;
-        right: -145px;
+        right: -165px;
     }
     .p{
+        font-family: $poppins;
         @extend .position-p;
         transform: rotate(90deg);
         top: 17px;
-        right: -115px; 
+        right: -130px; 
     }
 }

@@ -6,10 +6,12 @@
 }
 .storm{
     .p{
+        font-family: $poppins;
         line-height: 30px;
         @extend .default-text;
     }
     .a{
+        font-family: $poppins;
         line-height: 30px;
         font-size: 18px;
         color: $text-color;

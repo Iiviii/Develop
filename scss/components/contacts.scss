@@ -11,6 +11,7 @@
         font-size: 21px;
         color: $text-color;
         padding-bottom: 20px;
+        font-family: $poppins;
     }
     .a{
         text-transform: capitalize;
@@ -19,6 +20,7 @@
         &:hover{
             color: $default-blue;
         }
+        font-family: $poppins;
     }
 }
 .contact{
@@ -35,6 +37,7 @@
 .subscribe{
     max-width: 370px;
     .a{
+        font-family: $poppins;
         line-height: 26px;
         &:hover{
             color: $dark-grey;

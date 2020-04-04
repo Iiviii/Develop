@@ -7,10 +7,12 @@
     margin-top: 80px;
     max-width: 560px;
     .h1{
+        font-family: $poppins;
         font-size: 48px;
         color: $text-color;
     }
     .p{
+        font-family: $poppins;
         line-height: 30px;
         margin: 60px 0 50px 0;
         @extend .default-text;
@@ -19,11 +21,13 @@
 }
 
 .features2-h1{
+    font-family: $poppins;
     margin-top: 10px;
     font-size: $default-font-size;
     color: $text-color;
 }
 .features-p{
+    font-family: $poppins;
     margin: 30px 0;
     @extend .default-text;
 }

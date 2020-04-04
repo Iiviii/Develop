@@ -6,10 +6,12 @@
 .partners-title-container{
     max-width: 450px;
     .h1{
+        font-family: $poppins;
         font-size: 48px;
         color: $text-color;
     }
     .p{
+        font-family: $poppins;
         @extend .default-text;
         padding-top: 50px;
         line-height: 30px;
@@ -18,6 +20,7 @@
 .partners-photos-container{
     max-width: 535px;
     .a{
+        font-family: $poppins;
         padding: 50px 50px 0px 0px;
         &:nth-child(3n){
             padding-right: 0px;
